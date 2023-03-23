@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake Ordering</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <a href="#">Your Cake Shop</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Login/Signup</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Delicious Cakes, Made Just For You</h1>
+  <p>Celebrate Your Special Moments with Our Custom Cakes</p>
+  <a href="#" class="btn-order">Order Now</a>
+  </section>
+
+  <section class="categories">
+    <h2>Popular Cake Categories</h2>
+  <div class="category-list">
+    <!-- Add your cake categories with images here -->
+  </div>
+  </section>
+
+  <section class="order-form">
+    <h2>Place Your Cake Order</h2>
+  <form action="https://formspree.io/f/mvonbwbb" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="tel" name="phone" placeholder="Phone" required>
+
+    <select name="category">
+      <!-- Add your cake category options here -->
+    </select>
+    <select name="flavor">
+      <!-- Add your cake flavor options here -->
+    </select>
+    <select name="size">
+      <!-- Add your cake size options here -->
+    </select>
+
+    <textarea name="instructions" placeholder="Special Instructions"></textarea>
+    <input type="date" name="pickup_date" required>
+    <button type="submit">Submit Your Order</button>
+  </form>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+  <div class="testimonial-list">
+    <!-- Add your customer testimonials here -->
+  </div>
+  </section>
+
+  <!-- Gallery -->
+<section class="gallery">
+    <h2>Our Cake Creations</h2>
+    <div class="image-grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="path/to/cake-image-1.jpg" alt="Cake Image 1">
+        <div class="card-description">
+          <h3>Cake Name 1</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+      
+      <!-- Repeat the card structure for the remaining images -->
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="path/to/cake-image-2.jpg" alt="Cake Image 2">
+        <div class="card-description">
+          <h3>Cake Name 2</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="path/to/cake-image-3.jpg" alt="Cake Image 3">
+        <div class="card-description">
+          <h3>Cake Name 3</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="card">
+        <img src="path/to/cake-image-4.jpg" alt="Cake Image 4">
+        <div class="card-description">
+          <h3>Cake Name 4</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+  
+      <!-- Card 5 -->
+      <div class="card">
+        <img src="path/to/cake-image-5.jpg" alt="Cake Image 5">
+        <div class="card-description">
+          <h3>Cake Name 5</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+  
+      <!-- Card 6 -->
+      <div class="card">
+        <img src="path/to/cake-image-6.jpg" alt="Cake Image 6">
+        <div class="card-description">
+          <h3>Cake Name 6</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+  
+      <!-- Card 7 -->
+      <div class="card">
+        <img src="path/to/cake-image-7.jpg" alt="Cake Image 7">
+        <div class="card-description">
+          <h3>Cake Name 7</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+  
+      <!-- Card 8 -->
+      <div class="card">
+        <img src="path/to/cake-image-8.jpg" alt="Cake Image 8">
+        <div class="card-description">
+          <h3>Cake Name 8</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+  
+      <!-- Card 9 -->
+      <div class="card">
+        <img src="path/to/cake-image-9.jpg" alt="Cake Image 9">
+        <div class="card-description">
+          <h3>Cake Name 9</h3>
+          <p>Short description of the cake</p>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn-gallery">View Our Full Gallery</a>
+  </section>
+  
+
+  <footer>
+    <div class="contact-info">
+        <p>Address: 123 Cake Street, Sweet Town, CA</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@yourcakeshop.com</p>
+      </div>
+      <div class="social-media">
+        <!-- Add your social media links here -->
+      </div>
+      <div class="footer-links">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">FAQ</a>
+      </div>
+  </footer>
+</body>
+</html>
